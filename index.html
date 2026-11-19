@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Sentiment Analyzer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💬 AI Sentiment Analyzer</h1>
+    <p class="subtitle">Type any sentence - AI will tell if it's Positive, Negative or Neutral</p>
+
+    <label>Type a Sentence / Review:</label>
+    <textarea id="inputText" rows="4" placeholder="Try: I love this college, it is amazing... OR I hate this boring lecture..."></textarea>
+
+    <button onclick="analyze()">Analyze Sentiment 🚀</button>
+
+    <div id="result" style="display:none;">
+      <h2 id="emojiText"></h2>
+      <h2 id="sentimentText"></h2>
+      <p id="detailText"></p>
+      <div class="counts">
+        <p>😊 Positive Words: <span id="posCount"></span></p>
+        <p>😡 Negative Words: <span id="negCount"></span></p>
+      </div>
+      <p id="foundWords"></p>
+    </div>
+
+    <div class="examples">
+      <p><b>Try these:</b></p>
+      <button class="ex-btn" onclick="tryExample('I love this college, teachers are amazing and helpful')">I love this college...</button>
+      <button class="ex-btn" onclick="tryExample('I hate this boring lecture, it is terrible and worst')">I hate this lecture...</button>
+      <button class="ex-btn" onclick="tryExample('Today is Monday and I went to college')">Today is Monday...</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
