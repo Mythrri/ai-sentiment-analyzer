@@ -1,0 +1,13 @@
+body { background: #f0f2f5; font-family: Arial; display: flex; justify-content: center; padding: 20px; }
+.container { background: white; width: 600px; max-width: 95%; padding: 25px; border-radius: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.1); }
+h1 { text-align: center; color: #7c3aed; }
+.subtitle { text-align: center; color: #666; }
+label { font-weight: bold; display: block; margin-top: 15px; margin-bottom: 5px; }
+textarea { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid #ccc; box-sizing: border-box; font-size: 15px; }
+button { width: 100%; background: #7c3aed; color: white; border: none; padding: 15px; border-radius: 10px; font-size: 17px; font-weight: bold; margin-top: 20px; cursor: pointer; }
+button:hover { background: #5b21b6; }
+#result { margin-top: 20px; padding: 20px; border-radius: 12px; background: #f9f5ff; text-align: center; }
+#emojiText { font-size: 50px; margin: 0; }
+.counts { display: flex; justify-content: space-around; background: white; padding: 10px; border-radius: 10px; }
+.examples { margin-top: 20px; }
+.ex-btn { background: #e9d5ff; color: #5b21b6; padding: 10px; font-size: 13px; margin-top: 8px; }
