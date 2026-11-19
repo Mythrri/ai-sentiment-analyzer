@@ -42,7 +42,7 @@ This is called **Lexicon-Based Sentiment Analysis** - a core technique in NLP.
 
 ## 👩‍💻 Author
 **Mythrri**
-- Aspiring MSc Artificial Intelligence Student
+- Aspiring BTech(CSE) Artificial Intelligence Student
 - Interested in NLP, Machine Learning & AI Applications
 
 ## 📄 License
